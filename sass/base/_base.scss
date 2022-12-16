@@ -27,11 +27,11 @@ html {
 }
 
 .btn {
-  letter-spacing: 0.1em;
-  padding: 14px 38px;
-  border-radius: 4px;
+  letter-spacing: 0.1rem;
+  padding: 22rem 38rem;
+  border-radius: 4rem;
   background: $btnColor;
-  font-size: 14px;
+  font-size: 14rem;
   color: $txtColor;
   &:hover {
     opacity: 0.85;

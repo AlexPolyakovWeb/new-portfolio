@@ -1,6 +1,16 @@
 .about {
-  padding-top: 60rem;
-  padding-bottom: 60rem;
+  padding-top: 100rem;
+  padding-bottom: 100rem;
+
+  @media (max-width: 1199px) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  @media (max-width: 699px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
   &__row-content {
     display: flex;

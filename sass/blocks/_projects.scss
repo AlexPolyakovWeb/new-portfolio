@@ -1,19 +1,27 @@
 .projects {
-  padding-top: 60rem;
-  padding-bottom: 60rem;
+  padding-top: 100rem;
+  padding-bottom: 100rem;
+
+  @media (max-width: 1199px) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  @media (max-width: 699px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
   &__row-content {
     width: 100%;
-    // max-width: 1064px;
     margin: 0 auto;
-
-    @media (max-width: 1199px) {
-        // max-width: 799rem;
-    }
   }
   &__title {
-    // text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
+
+    @media (max-width: 699px) {
+      margin-bottom: 40px;
+    }
   }
   // Scroll-bar
   &__list-card {
@@ -36,16 +44,16 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 363rem;
+  width: 340rem;
   background-color: $cardOverlay;
   padding: 40rem;
 
   @media (max-width: 1199px) {
-    width: 350rem;
+    // width: 350rem;
   }
 
-  @media (max-width: 767px) {
-    max-width: 280rem;
+  @media (max-width: 699px) {
+    width: 280rem;
   }
 
   &__image {
@@ -54,7 +62,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-    width: 320px;
     height: 100%;
     object-fit: cover;
     z-index: -1;

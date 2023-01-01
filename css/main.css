@@ -484,7 +484,7 @@ fieldset {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 390px;
-  padding: 30px 15px 40px 15px;
+  padding: 44px 15px 40px 15px;
   background-color: #1B1A17;
   -webkit-transition: top 0.3s;
   transition: top 0.3s;
@@ -665,6 +665,7 @@ fieldset {
     height: 62rem;
     margin: 0;
     margin-right: 15rem;
+    width: 130rem;
   }
 }
 .skills__title-item-list {
@@ -675,7 +676,7 @@ fieldset {
 }
 @media (max-width: 699px) {
   .skills__title-item-list {
-    font-size: 16rem;
+    font-size: 20rem;
   }
 }
 

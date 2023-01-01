@@ -66,6 +66,7 @@
       height: 62rem;
       margin: 0;
       margin-right: 15rem;
+      width: 130rem;
     }
   }
   &__title-item-list {
@@ -75,8 +76,7 @@
     line-height: 1;
 
     @media (max-width: 699px) {
-      font-size: 16rem;
-
+      font-size: 20rem;
     }
   }
 }

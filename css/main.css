@@ -803,6 +803,11 @@ fieldset {
   font-size: 16px;
   margin-bottom: 20px;
 }
+@media (max-width: 699px) {
+  .card__lead {
+    font-size: 13px;
+  }
+}
 .card__lead span {
   color: #8f8f8f;
 }
@@ -935,7 +940,7 @@ fieldset {
   }
 }
 .footer__lead-col-description {
-  font-size: 16rem;
+  font-size: 20rem;
 }
 
 /* Tablet */

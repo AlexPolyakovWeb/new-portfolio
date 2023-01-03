@@ -1,125 +1,109 @@
 
 html {
-  height: 100%;
-  font-size: 1px;
-  scroll-behavior: smooth;
+    height: 100%;
+    font-size: 1px;
+    scroll-behavior: smooth;
 }
 
 // font-family: 'Inconsolata',monospace;
 // font-family: 'JetBrains Mono',monospace;
 
 .logo-image {
-  height: 30rem;
+    height: 30rem;
 }
 
 .text {
-  font-family: $ffTxt;
-  font-size: $fzTxt;
-  font-weight: $fwTxt;
-  line-height: $lhTxt;
+    font-family: $ffTxt;
+    font-size: $fzTxt;
+    font-weight: $fwTxt;
+    line-height: $lhTxt;
 }
 
 .btn {
-  letter-spacing: 0.1rem;
-  padding: 22rem 38rem;
-  border-radius: 4rem;
-  background: $btnColor;
-  font-size: 14rem;
-  color: $txtColor;
-  &:hover {
-    opacity: 0.85;
-  }
+    letter-spacing: 0.1rem;
+    padding: 22rem 38rem;
+    border-radius: 4rem;
+    background: $btnColor;
+    font-size: 14rem;
+    color: $txtColor;
+    &:hover {
+        opacity: 0.85;
+    }
 }
 
 .h1 {
-  font-family: $ffH1;
-  font-size: $fzH1;
-  font-weight: $fwH1;
-  line-height: $lhH1;
-  color: $txtAccent;
+    font-family: $ffH1;
+    font-size: $fzH1;
+    font-weight: $fwH1;
+    line-height: $lhH1;
+    color: $txtAccent;
 }
 
 .h2 {
-  font-family: $ffH2;
-  font-size: $fzH2;
-  font-weight: $fwH2;
-  line-height: $lhH2;
-  color: $txtAccent;
+    font-family: $ffH2;
+    font-size: $fzH2;
+    font-weight: $fwH2;
+    line-height: $lhH2;
+    color: $txtAccent;
 }
 
 .h3 {
-  font-family: $ffH3;
-  font-size: $fzH3;
-  font-weight: $fwH3;
-  line-height: $lhH3;
-  color: $txtAccent;
-  text-transform: uppercase;
+    font-family: $ffH3;
+    font-size: $fzH3;
+    font-weight: $fwH3;
+    line-height: $lhH3;
+    color: $txtAccent;
+    text-transform: uppercase;
 }
 
 body {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 
-  background: $bgColor;
-  font-family: $ffTxt;
-  font-size: $fzTxt;
-  font-weight: $fwTxt;
-  color: $txtColor;
-  line-height: $lhTxt;
+    background: $bgColor;
+    font-family: $ffTxt;
+    font-size: $fzTxt;
+    font-weight: $fwTxt;
+    color: $txtColor;
+    line-height: $lhTxt;
 }
 
 body>* {
-  /* sticky footer */
-  flex-shrink: 0;
+    /* sticky footer */
+    flex-shrink: 0;
 }
 
 body.noscroll {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .footer {
-  /* sticky footer */
-  margin-top: auto;
+    /* sticky footer */
+    margin-top: auto;
 }
 
 /* Grid styles */
 .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Utility */
 .none {
-  display: none !important;
+    display: none !important;
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
-
-/* Sticky Footer 2*/
-// html {
-//   height: 100%;
-// }
-
-// body {
-//   min-height: 100%;
-
-//   display: flex;
-//   flex-direction: column;
-// }
-
-// main {
-//   flex-grow: 1;
-// }

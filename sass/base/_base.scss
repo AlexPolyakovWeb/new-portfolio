@@ -17,6 +17,9 @@ html {
     font-size: $fzTxt;
     font-weight: $fwTxt;
     line-height: $lhTxt;
+    @media (max-width: 699px) {
+        font-size: 16rem;
+    }
 }
 
 .btn {
@@ -24,7 +27,8 @@ html {
     padding: 22rem 38rem;
     border-radius: 4rem;
     background: $btnColor;
-    font-size: 14rem;
+    font-size: 16rem;
+    letter-spacing: 1rem;
     color: $txtColor;
     &:hover {
         opacity: 0.85;

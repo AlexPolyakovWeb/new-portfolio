@@ -40,14 +40,14 @@
   &__title-col-contacts {
     margin-bottom: 30rem;
     @media (max-width: 999px) {
-      margin-bottom: 20rem;
+      margin-bottom: 26rem;
     }
   }
   &__row-social-col-contacts {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 30rem;
-    row-gap: 30rem;
+    row-gap: 22rem;
     @media (max-width: 1199px) {
         row-gap: 15rem;
     }
@@ -90,12 +90,12 @@
     }
 
     @media (max-width: 999px) {
-      margin-bottom: 40rem;
+      margin-bottom: 20rem;
     }
   }
   &__logo-col-description {
     margin-top: 10rem;
-    margin-bottom: 40rem;
+    margin-bottom: 20rem;
     @media (max-width: 999px) {
       margin-bottom: 25rem;
     }

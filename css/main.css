@@ -11,8 +11,13 @@ html {
 .text {
   font-family: "JetBrains Mono", monospace;
   font-size: 20rem;
-  font-weight: 200;
+  font-weight: 100;
   line-height: 1.6;
+}
+@media (max-width: 699px) {
+  .text {
+    font-size: 16rem;
+  }
 }
 
 .btn {
@@ -20,7 +25,8 @@ html {
   padding: 22rem 38rem;
   border-radius: 4rem;
   background: #424242;
-  font-size: 14rem;
+  font-size: 16rem;
+  letter-spacing: 1rem;
   color: #F0E3CA;
 }
 .btn:hover {
@@ -65,7 +71,7 @@ body {
   background: #1B1A17;
   font-family: "JetBrains Mono", monospace;
   font-size: 20rem;
-  font-weight: 200;
+  font-weight: 100;
   color: #F0E3CA;
   line-height: 1.6;
 }
@@ -870,7 +876,7 @@ fieldset {
 }
 @media (max-width: 999px) {
   .footer__title-col-contacts {
-    margin-bottom: 20rem;
+    margin-bottom: 26rem;
   }
 }
 .footer__row-social-col-contacts {
@@ -878,7 +884,7 @@ fieldset {
   grid-template-columns: 1fr 1fr;
   -webkit-column-gap: 30rem;
           column-gap: 30rem;
-  row-gap: 30rem;
+  row-gap: 22rem;
 }
 @media (max-width: 1199px) {
   .footer__row-social-col-contacts {
@@ -926,12 +932,12 @@ fieldset {
 }
 @media (max-width: 999px) {
   .footer__col-description {
-    margin-bottom: 40rem;
+    margin-bottom: 20rem;
   }
 }
 .footer__logo-col-description {
   margin-top: 10rem;
-  margin-bottom: 40rem;
+  margin-bottom: 20rem;
 }
 @media (max-width: 999px) {
   .footer__logo-col-description {
@@ -960,4 +966,5 @@ fieldset {
     width: 350px;
   }
 }
+
 /*# sourceMappingURL=main.css.map */

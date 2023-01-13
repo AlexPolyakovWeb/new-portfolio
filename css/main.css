@@ -331,7 +331,7 @@ fieldset {
 }
 @media (max-width: 699px) {
   .header__col-content {
-    margin-bottom: -15rem;
+    margin-bottom: 0;
   }
 }
 .header__title-col-content {

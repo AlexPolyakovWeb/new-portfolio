@@ -406,7 +406,7 @@ fieldset {
 }
 @media (max-width: 699px) {
   .header .heder__image-col-images.heder__image-col-images--absolute {
-    top: 60%;
+    top: 70%;
   }
 }
 .header .heder__image-col-images.heder__image-col-images--absolute__image-col-images--rotate353 {

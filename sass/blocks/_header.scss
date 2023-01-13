@@ -120,6 +120,9 @@
     top: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+    @media (max-width: 699px) {
+      top: 60%;
+    }
 
     &__image-col-images--rotate353 {
       rotate: 353deg;

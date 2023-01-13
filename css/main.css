@@ -22,7 +22,7 @@ html {
 
 .btn {
   letter-spacing: 0.1rem;
-  padding: 22rem 38rem;
+  padding: 30rem 38rem;
   border-radius: 4rem;
   background: #424242;
   font-size: 16rem;
@@ -31,6 +31,11 @@ html {
 }
 .btn:hover {
   opacity: 0.85;
+}
+@media (max-width: 999px) {
+  .btn {
+    padding: 30rem 36rem;
+  }
 }
 
 .h1 {
@@ -308,6 +313,7 @@ fieldset {
 }
 @media (max-width: 699px) {
   .header__row-content {
+    padding-top: 60rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -325,19 +331,25 @@ fieldset {
 }
 @media (max-width: 699px) {
   .header__col-content {
-    margin-bottom: 40px;
+    margin-bottom: -15rem;
   }
 }
 .header__title-col-content {
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 .header__subtitle-col-content {
-  margin-bottom: 20rem;
+  margin-bottom: 30rem;
   font-family: "Inconsolata", monospace;
   font-size: 40rem;
   font-weight: 700;
   line-height: 1;
   color: #F0E3CA;
+}
+@media (max-width: 999px) {
+  .header__subtitle-col-content {
+    margin-bottom: 20rem;
+    font-size: 32rem;
+  }
 }
 .header__desc-col-content {
   margin-bottom: 30rem;
@@ -540,6 +552,9 @@ fieldset {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
 }
 @media (max-width: 699px) {
@@ -548,27 +563,52 @@ fieldset {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 .about__col-images {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 260rem;
+  height: 260rem;
+  overflow: hidden;
 }
 @media (max-width: 1199px) {
   .about__col-images {
-    width: 72rem;
-    margin-right: 40rem;
+    max-width: 230rem;
+  }
+}
+@media (max-width: 999px) {
+  .about__col-images {
+    max-width: 130rem;
+  }
+}
+@media (max-width: 699px) {
+  .about__col-images {
+    max-width: 190rem;
   }
 }
 .about__image-col-images {
   position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 .about__col-content {
-  max-width: 820rem;
+  width: 100%;
+  max-width: 870rem;
+}
+@media (max-width: 1199px) {
+  .about__col-content {
+    max-width: 570rem;
+  }
+}
+@media (max-width: 999px) {
+  .about__col-content {
+    max-width: 440rem;
+  }
 }
 .about__description-col-content {
   font-size: 28rem;

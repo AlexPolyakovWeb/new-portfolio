@@ -24,7 +24,7 @@ html {
 
 .btn {
     letter-spacing: 0.1rem;
-    padding: 22rem 38rem;
+    padding: 30rem 38rem;
     border-radius: 4rem;
     background: $btnColor;
     font-size: 16rem;
@@ -32,6 +32,9 @@ html {
     color: $txtColor;
     &:hover {
         opacity: 0.85;
+    }
+    @media (max-width: 999px) {
+        padding: 30rem 36rem;
     }
 }
 

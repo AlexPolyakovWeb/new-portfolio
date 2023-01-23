@@ -22,11 +22,12 @@ html {
 
 .btn {
   letter-spacing: 0.1rem;
-  padding: 30rem 38rem;
+  padding: 26rem 36rem;
   border-radius: 4rem;
   background: #424242;
   font-size: 16rem;
-  letter-spacing: 1rem;
+  letter-spacing: 1.6rem;
+  text-transform: uppercase;
   color: #F0E3CA;
 }
 .btn:hover {
@@ -1011,4 +1012,5 @@ fieldset {
     width: 350px;
   }
 }
+
 /*# sourceMappingURL=main.css.map */

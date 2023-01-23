@@ -24,11 +24,12 @@ html {
 
 .btn {
     letter-spacing: 0.1rem;
-    padding: 30rem 38rem;
+    padding: 26rem 36rem;
     border-radius: 4rem;
     background: $btnColor;
     font-size: 16rem;
-    letter-spacing: 1rem;
+    letter-spacing: 1.6rem;
+    text-transform: uppercase;
     color: $txtColor;
     &:hover {
         opacity: 0.85;

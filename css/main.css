@@ -36,7 +36,16 @@ html {
 }
 @media (max-width: 999px) {
   .btn {
-    padding: 30rem 36rem;
+    padding: 22rem 36rem;
+  }
+}
+
+.btn--card {
+  padding: 22rem 36rem;
+}
+@media (max-width: 999px) {
+  .btn--card {
+    padding: 18rem 36rem;
   }
 }
 
@@ -975,11 +984,12 @@ fieldset {
   }
 }
 .footer__col-description {
+  width: 100%;
   max-width: 410rem;
 }
 @media (max-width: 999px) {
   .footer__col-description {
-    margin-bottom: 20rem;
+    margin-bottom: 25rem;
   }
 }
 .footer__logo-col-description {
@@ -993,6 +1003,13 @@ fieldset {
 }
 .footer__lead-col-description {
   font-size: 20rem;
+  width: 100%;
+  max-width: 370rem;
+}
+@media (max-width: 699px) {
+  .footer__lead-col-description {
+    max-width: 300rem;
+  }
 }
 
 /* Tablet */

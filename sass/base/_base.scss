@@ -36,7 +36,14 @@ html {
         opacity: 0.85;
     }
     @media (max-width: 999px) {
-        padding: 30rem 36rem;
+        padding: 22rem 36rem;
+    }
+}
+
+.btn--card {
+    padding: 22rem 36rem;
+    @media (max-width: 999px) {
+        padding: 18rem 36rem;
     }
 }
 

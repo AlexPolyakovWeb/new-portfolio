@@ -21,6 +21,7 @@ html {
 }
 
 .btn {
+  text-align: center;
   letter-spacing: 0.1rem;
   padding: 26rem 36rem;
   border-radius: 4rem;
@@ -346,7 +347,7 @@ fieldset {
   }
 }
 .header__title-col-content {
-  margin-bottom: 10rem;
+  margin-bottom: 30rem;
 }
 .header__subtitle-col-content {
   margin-bottom: 30rem;
@@ -363,7 +364,7 @@ fieldset {
   }
 }
 .header__desc-col-content {
-  margin-bottom: 30rem;
+  margin-bottom: 60rem;
 }
 @media (max-width: 699px) {
   .header__btn-col-content {
